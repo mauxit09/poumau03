@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Reset básico para garantir que o estilo seja consistente entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo clara para contraste com o preto e branco */
+    color: #333;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #000; /* Cor preta para o cabeçalho */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    border-bottom: 5px solid #e5e5e5; /* Linha inferior cinza clara para destaque */
+}
+
+/* Estilo para o container principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilo para títulos principais */
+h1, h2 {
+    color: #000; /* Cor preta para os títulos */
+}
+
+/* Estilo para a tabela de classificação */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #000; /* Cor preta para o cabeçalho da tabela */
+    color: #fff;
+}
+
+/* Estilo para a lista de times */
+.teams-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.teams-list li {
+    background-color: #f0f0f0; /* Cor de fundo clara para os itens da lista */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Borda leve para os itens da lista */
+}
+
+/* Adiciona um pequeno efeito de transição ao passar o mouse sobre os itens da lista */
+.teams-list li:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+/* Estilo para rodapé */
+footer {
+    background-color: #000; /* Cor preta para o rodapé */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 5px solid #e5e5e5; /* Linha superior cinza clara para destaque */
+    margin-top: 20px;
+    font-size: 0.9em;
+}
